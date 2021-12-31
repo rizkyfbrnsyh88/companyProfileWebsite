@@ -441,6 +441,7 @@ header .navbar a:hover {
   font-size: 1.5rem;
   color: #fff;
   text-align: left;
+  width: 30%;
 }
 .footer .share {
   display: flex;
@@ -648,6 +649,29 @@ header .navbar a:hover {
   }
   .container-penghargaan .box-penghargaan img {
     width: 50%;
+  }
+  .box-content .kotak {
+    width: auto;
+    height: 300px;
+  }
+  .box-content .text {
+    width: auto;
+    padding: 5px;
+  }
+  .container-owner .box-owner .img img {
+    width: 300px;
+  }
+  .container-penghargaan .box-penghargaan img {
+    width: 300px;
+  }
+  .footer .sub-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .sub-footer p {
+    text-align: center;
+    width: auto;
   }
 }
 
