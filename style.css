@@ -502,7 +502,6 @@ header .navbar a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid black;
   height: 100vh;
 }
 .container-about h3 {
@@ -634,6 +633,12 @@ header .navbar a:hover {
     background: #f7f7f7;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     transform: translateX(2000px);
+  }
+  .container-about h3 {
+    font-size: 6rem;
+  }
+  .container-about p {
+    font-size: 2rem;
   }
 
   header .navbar.active {
